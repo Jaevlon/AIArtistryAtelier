@@ -1,5 +1,5 @@
 {
-  "last_node_id": 98,
+  "last_node_id": 99,
   "last_link_id": 124,
   "nodes": [
     {
@@ -45,7 +45,7 @@
         122
       ],
       "flags": {},
-      "order": 29,
+      "order": 30,
       "mode": 4,
       "inputs": [
         {
@@ -105,7 +105,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 32,
+      "order": 33,
       "mode": 4,
       "inputs": [
         {
@@ -152,7 +152,7 @@
         46
       ],
       "flags": {},
-      "order": 21,
+      "order": 22,
       "mode": 4,
       "inputs": [
         {
@@ -195,7 +195,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 35,
+      "order": 36,
       "mode": 4,
       "inputs": [
         {
@@ -273,7 +273,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 33,
+      "order": 34,
       "mode": 4,
       "inputs": [
         {
@@ -349,7 +349,7 @@
         116
       ],
       "flags": {},
-      "order": 26,
+      "order": 27,
       "mode": 4,
       "inputs": [
         {
@@ -403,7 +403,7 @@
         116
       ],
       "flags": {},
-      "order": 25,
+      "order": 26,
       "mode": 4,
       "inputs": [
         {
@@ -457,7 +457,7 @@
         66
       ],
       "flags": {},
-      "order": 22,
+      "order": 23,
       "mode": 4,
       "inputs": [
         {
@@ -506,7 +506,7 @@
         122
       ],
       "flags": {},
-      "order": 18,
+      "order": 19,
       "mode": 4,
       "inputs": [
         {
@@ -554,7 +554,7 @@
         150
       ],
       "flags": {},
-      "order": 31,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -600,7 +600,7 @@
         116
       ],
       "flags": {},
-      "order": 16,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -721,7 +721,7 @@
         254.8814697265625
       ],
       "flags": {},
-      "order": 28,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -818,7 +818,7 @@
         419.9620666503906
       ],
       "flags": {},
-      "order": 34,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
@@ -963,52 +963,6 @@
       ]
     },
     {
-      "id": 93,
-      "type": "HyVideoLoraSelect",
-      "pos": [
-        405.88262939453125,
-        166.65432739257812
-      ],
-      "size": [
-        299.99237060546875,
-        103.72110748291016
-      ],
-      "flags": {},
-      "order": 15,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "prev_lora",
-          "type": "HYVIDLORA",
-          "link": 111,
-          "shape": 7
-        },
-        {
-          "name": "blocks",
-          "type": "SELECTEDBLOCKS",
-          "link": null,
-          "shape": 7
-        }
-      ],
-      "outputs": [
-        {
-          "name": "lora",
-          "type": "HYVIDLORA",
-          "links": [
-            112
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "HyVideoLoraSelect"
-      },
-      "widgets_values": [
-        "hunyuanLora\\img2vid.safetensors",
-        1
-      ]
-    },
-    {
       "id": 46,
       "type": "VHS_LoadVideo",
       "pos": [
@@ -1148,7 +1102,7 @@
         155.23226928710938
       ],
       "flags": {},
-      "order": 36,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -1302,7 +1256,7 @@
         26
       ],
       "flags": {},
-      "order": 17,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -1336,7 +1290,7 @@
         26
       ],
       "flags": {},
-      "order": 24,
+      "order": 25,
       "mode": 0,
       "inputs": [
         {
@@ -1407,7 +1361,7 @@
         334
       ],
       "flags": {},
-      "order": 37,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -1484,7 +1438,7 @@
         103.84597778320312
       ],
       "flags": {},
-      "order": 27,
+      "order": 28,
       "mode": 4,
       "inputs": [
         {
@@ -1532,7 +1486,7 @@
         242
       ],
       "flags": {},
-      "order": 30,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -1589,7 +1543,7 @@
         102
       ],
       "flags": {},
-      "order": 23,
+      "order": 24,
       "mode": 4,
       "inputs": [
         {
@@ -1637,7 +1591,7 @@
         102
       ],
       "flags": {},
-      "order": 19,
+      "order": 20,
       "mode": 4,
       "inputs": [
         {
@@ -1725,7 +1679,7 @@
         479.455078125
       ],
       "flags": {},
-      "order": 20,
+      "order": 21,
       "mode": 0,
       "inputs": [
         {
@@ -1970,18 +1924,111 @@
       }
     },
     {
+      "id": 98,
+      "type": "Note",
+      "pos": [
+        1502.5716552734375,
+        36.18203353881836
+      ],
+      "size": [
+        488.4524230957031,
+        135.74807739257812
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "Shared by: AI Artistry Atelier\nIn sum: Generate Image to Video that's consistent with the LeapFusion Lora\nCan be unlimited length since they append to one another\nTutorial and important trick: https://www.youtube.com/watch?v=m7a_PDuxKHM\n\nHave fun!"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 93,
+      "type": "HyVideoLoraSelect",
+      "pos": [
+        405.88262939453125,
+        166.65432739257812
+      ],
+      "size": [
+        299.99237060546875,
+        103.72110748291016
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "prev_lora",
+          "type": "HYVIDLORA",
+          "link": 111,
+          "shape": 7
+        },
+        {
+          "name": "blocks",
+          "type": "SELECTEDBLOCKS",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "lora",
+          "type": "HYVIDLORA",
+          "links": [
+            112
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "HyVideoLoraSelect"
+      },
+      "widgets_values": [
+        "hunyuanLora\\img2vid.safetensors",
+        1
+      ]
+    },
+    {
+      "id": 99,
+      "type": "Note",
+      "pos": [
+        1114.9373779296875,
+        831.8584594726562
+      ],
+      "size": [
+        210,
+        58
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Secret",
+      "properties": {},
+      "widgets_values": [
+        "\n\n\n\n.___  _____                                                 __  .__    .__                                    __    .__                                                                                                                                  \n|   |/ ____\\  ___.__. ____  __ __    ______ ____   ____   _/  |_|  |__ |__| ______     ______   ____  _______/  |_  |__| ____                                                                                                                            \n|   \\   __\\  <   |  |/  _ \\|  |  \\  /  ___// __ \\_/ __ \\  \\   __\\  |  \\|  |/  ___/     \\____ \\ /  _ \\/  ___/\\   __\\ |  |/    \\                                                                                                                           \n|   ||  |     \\___  (  <_> )  |  /  \\___ \\\\  ___/\\  ___/   |  | |   Y  \\  |\\___ \\      |  |_> >  <_> )___ \\  |  |   |  |   |  \\                                                                                                                          \n|___||__|     / ____|\\____/|____/  /____  >\\___  >\\___  >  |__| |___|  /__/____  > /\\  |   __/ \\____/____  > |__|   |__|___|  /                                                                                                                          \n              \\/                        \\/     \\/     \\/             \\/        \\/  )/  |__|              \\/                 \\/                                                                                                                           \n  __  .__                                                         __    /\\/\\____________________________________________________________/\\/\\ .__                                                  .__                                     .___.__    .___\n_/  |_|  |__   ____     ____  ____   _____   _____   ____   _____/  |_  )/)/   _____/\\_   _____/\\_   ___ \\______   \\_   _____/\\__    ___)/)/ |  |__   ______  _  __   _____ _____    ____ ___.__. |  |__   ____  __ _________  ______   __| _/|__| __| _/\n\\   __\\  |  \\_/ __ \\  _/ ___\\/  _ \\ /     \\ /     \\_/ __ \\ /    \\   __\\    \\_____  \\  |    __)_ /    \\  \\/|       _/|    __)_   |    |       |  |  \\ /  _ \\ \\/ \\/ /  /     \\\\__  \\  /    <   |  | |  |  \\ /  _ \\|  |  \\_  __ \\/  ___/  / __ | |  |/ __ | \n |  | |   Y  \\  ___/  \\  \\__(  <_> )  Y Y  \\  Y Y  \\  ___/|   |  \\  |      /        \\ |        \\\\     \\___|    |   \\|        \\  |    |       |   Y  (  <_> )     /  |  Y Y  \\/ __ \\|   |  \\___  | |   Y  (  <_> )  |  /|  | \\/\\___ \\  / /_/ | |  / /_/ | \n |__| |___|  /\\___  >  \\___  >____/|__|_|  /__|_|  /\\___  >___|  /__|     /_______  //_______  / \\______  /____|_  /_______  /  |____|       |___|  /\\____/ \\/\\_/   |__|_|  (____  /___|  / ____| |___|  /\\____/|____/ |__|  /____  > \\____ | |__\\____ | \n           \\/     \\/       \\/            \\/      \\/     \\/     \\/                 \\/         \\/         \\/       \\/        \\/                     \\/                      \\/     \\/     \\/\\/           \\/                         \\/       \\/         \\/ \n                          .___.__               .__        __              _____  .___                   _____                                                                                                                                           \n ___.__. ____  __ __    __| _/|__|__  __ ____   |__| _____/  |_  ____     /  _  \\ |   |   __________   _/ ____\\____ _______                                                                                                                              \n<   |  |/  _ \\|  |  \\  / __ | |  \\  \\/ // __ \\  |  |/    \\   __\\/  _ \\   /  /_\\  \\|   |  /  ___/  _ \\  \\   __\\\\__  \\\\_  __ \\                                                                                                                             \n \\___  (  <_> )  |  / / /_/ | |  |\\   /\\  ___/  |  |   |  \\  | (  <_> ) /    |    \\   |  \\___ (  <_> )  |  |   / __ \\|  | \\/                                                                                                                             \n / ____|\\____/|____/  \\____ | |__| \\_/  \\___  > |__|___|  /__|  \\____/  \\____|__  /___| /____  >____/   |__|  (____  /__|                                                                                                                                \n \\/                        \\/               \\/          \\/                      \\/           \\/                    \\/                                                                                                                                    \n"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
       "id": 20,
       "type": "HyVideoTextEncode",
       "pos": [
-        957.0337524414062,
-        553.3059692382812
+        956.9700317382812,
+        547.2509155273438
       ],
       "size": [
         368.1693420410156,
         411.73846435546875
       ],
       "flags": {},
-      "order": 14,
+      "order": 15,
       "mode": 0,
       "inputs": [
         {
@@ -2028,29 +2075,6 @@
       ],
       "color": "#232",
       "bgcolor": "#353"
-    },
-    {
-      "id": 98,
-      "type": "Note",
-      "pos": [
-        1502.5716552734375,
-        36.18203353881836
-      ],
-      "size": [
-        488.4524230957031,
-        135.74807739257812
-      ],
-      "flags": {},
-      "order": 13,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "properties": {},
-      "widgets_values": [
-        "Shared by: AI Artistry Atelier\nIn sum: Generate Image to Video that's consistent with the LeapFusion Lora\nCan be unlimited length since they append to one another\nTutorial and important trick: https://www.youtube.com/watch?v=m7a_PDuxKHM\n\nHave fun!"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
     }
   ],
   "links": [
@@ -2432,10 +2456,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.8140274938683997,
+      "scale": 0.895430243255243,
       "offset": [
-        -679.040623942395,
-        418.31178440014116
+        -328.7662004519374,
+        -180.46223906266982
       ]
     },
     "ue_links": [],
