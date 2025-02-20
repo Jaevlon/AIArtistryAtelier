@@ -190,7 +190,7 @@
       ],
       "size": [
         214.7587890625,
-        334
+        542.7587890625
       ],
       "flags": {
         "collapsed": false
@@ -268,7 +268,7 @@
       ],
       "size": [
         214.7587890625,
-        334
+        542.7587890625
       ],
       "flags": {
         "collapsed": false
@@ -830,7 +830,7 @@
       ],
       "size": [
         247.455078125,
-        262
+        503.455078125
       ],
       "flags": {},
       "order": 4,
@@ -1534,7 +1534,7 @@
       ],
       "size": [
         247.455078125,
-        262
+        503.455078125
       ],
       "flags": {},
       "order": 11,
@@ -1616,7 +1616,7 @@
       ],
       "size": [
         247.455078125,
-        262
+        503.455078125
       ],
       "flags": {},
       "order": 12,
@@ -1940,101 +1940,6 @@
       ]
     },
     {
-      "id": 69,
-      "type": "VHS_LoadVideo",
-      "pos": [
-        554.5706787109375,
-        1483.99658203125
-      ],
-      "size": [
-        247.455078125,
-        238
-      ],
-      "flags": {},
-      "order": 15,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "meta_batch",
-          "type": "VHS_BatchManager",
-          "link": null,
-          "shape": 7
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": null,
-          "shape": 7
-        },
-        {
-          "name": "skip_first_frames",
-          "type": "INT",
-          "link": null,
-          "widget": {
-            "name": "skip_first_frames"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            128
-          ],
-          "slot_index": 0
-        },
-        {
-          "name": "frame_count",
-          "type": "INT",
-          "links": [
-            127
-          ],
-          "slot_index": 1
-        },
-        {
-          "name": "audio",
-          "type": "AUDIO",
-          "links": null
-        },
-        {
-          "name": "video_info",
-          "type": "VHS_VIDEOINFO",
-          "links": null
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "VHS_LoadVideo"
-      },
-      "widgets_values": {
-        "video": "HunyuanVideo_00054 (2).mp4",
-        "force_rate": 0,
-        "force_size": "Disabled",
-        "custom_width": 512,
-        "custom_height": 512,
-        "frame_load_cap": 1,
-        "skip_first_frames": 0,
-        "select_every_nth": 1,
-        "choose video to upload": "image",
-        "videopreview": {
-          "hidden": false,
-          "paused": false,
-          "params": {
-            "frame_load_cap": 1,
-            "skip_first_frames": 0,
-            "force_rate": 0,
-            "filename": "HunyuanVideo_00054 (2).mp4",
-            "type": "input",
-            "format": "video/mp4",
-            "select_every_nth": 1
-          },
-          "muted": false
-        }
-      },
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
       "id": 100,
       "type": "ImageFromBatch",
       "pos": [
@@ -2136,6 +2041,93 @@
       "widgets_values": [
         "a-1"
       ]
+    },
+    {
+      "id": 69,
+      "type": "VHS_LoadVideo",
+      "pos": [
+        554.5706787109375,
+        1483.99658203125
+      ],
+      "size": [
+        247.455078125,
+        503.455078125
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null,
+          "shape": 7
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            128
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "frame_count",
+          "type": "INT",
+          "links": [
+            127
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": null
+        },
+        {
+          "name": "video_info",
+          "type": "VHS_VIDEOINFO",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_LoadVideo"
+      },
+      "widgets_values": {
+        "video": "HunyuanVideo_00054 (2).mp4",
+        "force_rate": 0,
+        "force_size": "Disabled",
+        "custom_width": 512,
+        "custom_height": 512,
+        "frame_load_cap": 0,
+        "skip_first_frames": 0,
+        "select_every_nth": 1,
+        "choose video to upload": "image",
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "frame_load_cap": 0,
+            "skip_first_frames": 0,
+            "force_rate": 0,
+            "filename": "HunyuanVideo_00054 (2).mp4",
+            "type": "input",
+            "format": "video/mp4",
+            "select_every_nth": 1
+          },
+          "muted": false
+        }
+      },
+      "color": "#232",
+      "bgcolor": "#353"
     }
   ],
   "links": [
@@ -2525,10 +2517,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.505447028499297,
+      "scale": 0.5559917313492861,
       "offset": [
-        679.266030500775,
-        -284.57166778913273
+        -224.1608066333372,
+        393.6356507387808
       ]
     },
     "ue_links": [],
